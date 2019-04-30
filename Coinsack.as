@@ -8,7 +8,7 @@ package
         [Embed(source='/assets/gfx/sack.png')]     private var Img:Class;
         
 		public static const FADE_TIME:Number = 20;
-		public static var t:Number = 0;
+		public static var t:Number = 1000;
 		
         public function Coinsack(X:Number=0, Y:Number=0){
             super(X, Y);
